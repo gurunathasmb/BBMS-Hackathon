@@ -14,9 +14,9 @@ const App = () => {
   useEffect(() => {
     // Mock fetching data
     setPages({
-      needForBlood: "Information about the need for blood...",
-      bloodTips: "Some useful blood donation tips...",
-      whoYouHelp: "You can help people like...",
+      needForBlood: "ನಮಗೆ ನಿಮ್ಮ ಅಮೂಲ್ಯವಾದ ರಕ್ತದ ಅಗತ್ಯವಿದೆ",
+      bloodTips: "ರಕ್ತದಾನವು ವಿಶ್ವದ ಅತ್ಯುತ್ತಮ ದಾನವಾಗಿದೆ",
+      whoYouHelp: "ಯಾರಿಗೆ ರಕ್ತ ಬೇಕೋ ಅದನ್ನು ನಾವು ದಾನ ಮಾಡುತ್ತೇವೆ",
       bloodGroups: "Details About Blood Groups Blood groups are classified based on the presence or absence of specific antigens on the surface of red blood cells. These antigens determine compatibility for blood transfusion, organ donation, and other medical procedures.ABO Blood Group SystemThe ABO system is the most important classification. It divides blood into four main groups:A Has A antigen on red cells and anti-B antibodies in plasma.Can donate to A and AB blood groups.Can receive from A and O blood groups.BHas B antigen on red cells and anti-A antibodies in plasma.Can donate to B and AB blood groups.Can receive from B and O blood groups.AB (Universal Recipient for Plasma)Has both A and B antigens on red cells and no anti-A or anti-B antibodies in plasma.Can donate to AB only.Can receive from A, B, AB, and O blood groups.O (Universal Donor for Red Cells)Has no A or B antigens on red cells but both anti-A and anti-B antibodies in plasma.Can donate to A, B, AB, and O blood groups.Can receive from O only.",
       universal: "Information about universal donors and recipients...",
     });
