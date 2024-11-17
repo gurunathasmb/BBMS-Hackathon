@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px;
+}
+
+h1, h2, h4 {
+  color: #333;
+}
+
+/* Header */
+.header {
+  background-color: #193450;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Cards */
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card-header {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.card-body {
+  padding: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Carousel */
+.carousel-inner img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+/* Universal Section */
+.row {
+  margin: 0 -15px;
+}
+
+.row > div {
+  padding: 15px;
+}
+
+/* Buttons */
+.btn-secondary {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer a {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+}
+
+/* Miscellaneous */
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+img.img-fluid {
+  border-radius: 5px;
+}
+
+.card-text b {
+  color: #007bff;
+}
+.btn {
+  color: red;
+  background-color: #ffc107;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,50 @@
+/* General Page Styling */
+.page-container {
+    margin-top: 50px;
+    position: relative;
+    min-height: 84vh;
+  }
+  
+  /* Content Wrapper */
+  .content-wrap {
+    padding-bottom: 50px;
+  }
+  
+  /* About Us Text Styling */
+  h1.mt-4.mb-3 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 20px;
+  }
+  
+  /* Image Styling */
+  .img-fluid.rounded {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .col-lg-6 {
+      margin-bottom: 20px;
+    }
+  
+    h1.mt-4.mb-3 {
+      font-size: 1.5rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    .img-fluid.rounded {
+      height: 300px;
+    }
+  }
